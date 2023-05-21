@@ -62,7 +62,6 @@ const BoardView = () => {
         {tiles}
         <GameOverlay onRestart={resetGame} board={board} />
       </div>
-      {JSON.stringify(board.hasLost())}
     </div>
   );
 };
