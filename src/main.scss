@@ -50,6 +50,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   font-size: 25px;
+  font-family: 'Roboto Mono', monospace;
   padding: 10px 20px;
   border-radius: 7px;
   transition: color 0.3s ease, background-color 0.3s ease;
@@ -66,6 +67,7 @@ body {
 .score-box {
   background-color: #3d2963;
   color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto Mono', monospace;
   min-width: 50px;
   width: 70px;
   padding: 5px 15px;
