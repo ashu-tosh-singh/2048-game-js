@@ -11,7 +11,6 @@ const Footer = () => {
             <img src={github} />
           </a>
         </div>
-        <p>@all right reserved</p>
       </div>
     </footer>
   );
