@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# 2048 Game (JavaScript)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the code for a simple implementation of the popular game "2048" using JavaScript.
 
-## Available Scripts
+## Gameplay
 
-In the project directory, you can run:
+In 2048, the player's objective is to slide numbered tiles on a grid to combine them and create a tile with the number 2048. The game starts with two random tiles, each having a value of either 2 or 4. The player can use arrow keys (up, down, left, right) to move the tiles in respective directions. When two tiles with the same value collide while moving, they merge into a new tile with twice the value. The game ends when the player reaches the 2048 tile or when there are no more valid moves left.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML: Structuring the game layout and user interface.
+- CSS: Styling the game elements.
+- JavaScript: Implementing the game logic and interactions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run the game on your local machine, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/ashu-tosh-singh/2048-game-js.git`
+2. Open the project directory: `cd 2048-game-js`
+3. Open the `index.html` file in a web browser.
+4. Start playing the game!
 
-### `npm run build`
+## Gameplay Controls
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Use the arrow keys (up, down, left, right) to move the tiles on the game grid.
+- Press the "New Game" button to start a new game.
+- Press the "Undo" button to undo your last move.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Game Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Beautiful and responsive game interface.
+- Score tracking to keep a record of your progress.
+- Undo functionality to revert your last move if needed.
+- Game over detection and end screen display.
+- New game initialization and board reset.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions to improve the game, fix issues, or add new features are welcome! If you have any suggestions, bug reports, or feedback, feel free to open an issue or submit a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for personal or commercial purposes.
